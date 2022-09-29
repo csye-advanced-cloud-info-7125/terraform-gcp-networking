@@ -1,4 +1,4 @@
-variable "gcp_project" {
+variable "project_id" {
   default     = "cyse-group5"
   type        = string
   description = "Provide the project id"
