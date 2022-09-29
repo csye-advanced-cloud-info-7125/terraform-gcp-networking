@@ -14,7 +14,7 @@ variable "zone" {
   description = "Provide the region"
 }
 variable "vpc_routing_mode" {
-  default     = "REGIONAL"
+  default     = "GLOBAL"
   type        = string
   description = "pass routing mode"
 }
@@ -23,16 +23,6 @@ variable "subnet_1_CIDR" {
   type        = string
   description = "Cidr value for first subnet"
 }
-# # variable "subnet_2_CIDR" {
-# #   default     = "10.1.0.0/16"
-# #   type        = string
-# #   description = "Cidr value for second subnet"
-# # }
-# variable "subnet_3_CIDR" {
-#   default     = "10.2.0.0/16"
-#   type        = string
-#   description = "Cidr value for third subnet"
-# }
 variable "gce_ssh_user" {
   default     = "rathore.v"
   type        = string
