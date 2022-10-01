@@ -44,7 +44,8 @@ resource "google_compute_instance" "firstvm" {
 
     inline = [
       "chmod +x /tmp/script.sh",
-      "/tmp/script.sh args",
+      "cd /tmp",
+      "./script.sh"
     ]
   }
 
