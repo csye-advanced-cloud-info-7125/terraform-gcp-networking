@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 sudo apt update -y
 sudo apt -y install nginx
 sudo nginx -v
